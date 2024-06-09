@@ -6,10 +6,10 @@ This system is created using XAMPP (with Laravel as Framework) in partial fulfil
 # Getting Started
 #### After Cloning
 1. ```composer install ```
-If errors occur, try:
+- If errors occur, try:
 ``` composer clearcache ``` and ``` composer selfupdate ```
 2. ``` php artisan storage:link ```
-Create .env file using the .env.example provided
+- Create .env file using the .env.example provided
 3. ``` php artisan key:generate ```
 4. ``` php artisan migrate:fresh --seed ```
 5. ``` php artisan optimize:clear ```
