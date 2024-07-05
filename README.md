@@ -1,23 +1,6 @@
-# RHConnect: A Web-Based EMR for a Rural Health Center.
-##### Marian Stephanie C. Vergara and Asst. Prof. Rizza DC. Mercado
-###### 2nd Semester A.Y. 2023 - 2024
-This system is created using XAMPP (with Laravel as Framework) in partial fulfilment for the course CMSC190 Special Problem.
+# RHConnect: A Web-Based Electronic Medical Records (EMR) System for Laur Rural Health Center.
+Authors: Marian Stephanie C. Vergara and Asst. Prof. Rizza DC. Mercado
 
-# Getting Started
-#### After Cloning
-1. ```composer install ```
-- If errors occur, try:
-``` composer clearcache ``` and ``` composer selfupdate ```
-2. ``` php artisan storage:link ```
-- Create .env file using the .env.example provided
-3. ``` php artisan key:generate ```
-4. ``` php artisan migrate:fresh --seed ```
-5. ``` php artisan optimize:clear ```
-6. ``` php artisan route:cache ```
-7. ``` php artisan route:clear ```
+With the emergence of digital technology, creating and storing health records is essential to enhance patient care and efficiency. This study has developed a web-based electronic medical records system for the rural health center of Laur, Nueva Ecija. The system digitizes the record management process and automates administrative tasks such as the generation of medical certificates and referral letters in order to help the rural health center improve and become a better provider of high-quality, patient-centered care that enhances the quality of life for all members of the community. Usability testing conducted with healthcare professionals in the health center yielded a System Usability Scale (SUS) score of 84, indicating an above-average and excellent user experience for the developed system. Index 
 
-#### Ciphersweet
-1. Add "CIPHERSWEET_KEY=" at the lowest part of the .env.
-2. Run on terminal: ``` php artisan ciphersweet:generate-key ```
-
-
+Keywords: electronic medical records, web-based system
